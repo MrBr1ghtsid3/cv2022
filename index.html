@@ -3,141 +3,211 @@
 
 <head>
   <meta charset="utf-8">
+
   <title>My CV - v2020</title>
-  <link rel="stylesheet" href="css/styling.css">
+
+  <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Abel&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+  <!-- Styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styling.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <table class="contact" cellspacing="10">
-      <tr>
-        <td><img src="Images/bio.png" alt="" style="border-radius:15%"></td>
-        <td>
-          <h1>Tsvetoslav Shalev</h1>
-          <h2>Address: 1B Station Road, Wood Green N22 6UY</h2>
-          <h2>Mobile: 07525157546</h2>
-          <h2>Email: <a href="mailto:tsvetoslav.shalev@gmail.com">tsvetoslav.shalev@gmail.com</a></h2>
-        </td>
-      </tr>
-    </table>
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <a class="navbar-brand" href="">Call me: Sean</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bio">Education & IT training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#employment">Employment History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interests">Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:tsvetoslav.shalev@gmai.com">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      </section>
+  <div id="bio">
+    <div class="container-md">
+      <h3><strong>About</strong></h3>
+        <img class="my-photo" src="Images/bio.png" alt="">
+        <p>My name is Tsvetoslav "Sean" Shalev and I am an IT enthusiast, looking to build a career out of his passion for technology. I posses
+          experience with Windows 10, macOS and Linux (Mint/Ubuntu), computer hardware and software
+          troubleshooting, as well as networking fundamentals and scripting. I am comfortable with HTML 5, CSS, and basic JavaScript, using Atom or VS Code IDEs.</p>
+        <p>I have developed key technical skills over the years, working as a freelance IT consultant and a service
+          desk engineer for one of UK's top 50 MSPs, by building, upgrading and maintaining computers and systems; I have also
+          accumulated a wealth of troubleshooting experience, transferable skills such as excellent
+          customer service, teamwork, the ability to handle irate customers in a calm and professional
+          manner, process-adherence, escalating to senior management when needed, excellent time
+          management skills and workloads prioritisation when working to set SLAs.</p>
+        <p>As a firm believer in civilised discourse, and collaborative effort, my current goal is to secure a front-end web developer role with a team of good people, so I can continue to hone my technical capabilities and
+          support a career as an IT professional.</p>
+    </div>
+
+    </div>
   <hr>
-  <h3>Personal Profile</h3>
-  <div class="personal">
-    <p style="text-align:justify">An IT enthusiast, looking to build a career out of his passion for technology, who possess
-      experience with Windows 10, macOS and Linux (Mint/Ubuntu), computer hardware and software
-      troubleshooting, as well as networking fundamentals and scripting. I am comfortable with HTML 5, CSS, and basic JavaScript, using Atom or VS Code IDEs.</p>
-    <p style="text-align:justify">I have developed key technical skills over the years, working as a freelance IT consultant and a service
-      desk engineer for one of UK's top 50 MSPs, by building, upgrading and maintaining computers and systems; I have also
-      accumulated a wealth of troubleshooting experience, transferable skills such as excellent
-      customer service, teamwork, the ability to handle irate customers in a calm and professional
-      manner, process-adherence, escalating to senior management when needed, excellent time
-      management skills and workloads prioritisation when working to set SLAs.</p>
-    <p style="text-align:justify">As a firm believer in civilised discourse, and collaborative effort, my current goal is to secure a front-end web developer role with a team of good people, so I can continue to hone my technical capabilities and support a career as an IT professional.</p>
+  <div id="education">
+    <div class="container-md">
+      <h3><strong>Education & IT training</strong></h3>
+      <h4>09.2015 - Present day</h4>
+        <table>
+          <tr>
+            <td><strong>HND Level 5 BTEC Computers and System Development (Distinction)</strong></td>
+            <td><em>West London College of Business &amp; Management Sciences, London</em></td>
+          </tr>
+          <tr>
+            <td><strong>Cisco CCENT</strong></td>
+            <td><em>West London College of Business &amp; Management Sciences, London</em></td>
+          </tr>
+          <tr>
+            <td><strong>Network Professional Programme</strong></td>
+            <td><em>Just IT Training Ltd, London</em></td>
+          </tr>
+          <tr>
+            <td><strong>Udemy</strong></td>
+            <td><em>Self-motivated, London</em></td>
+          </tr>
+        </table>
+        <br>
+        <ul>
+          <li>CompTIA A+ Essentials (Passed)</li>
+          <li>CompTIA A+ IT Technician (Passed)</li>
+          <li>MCTS Windows 10</li>
+          <li>The Complete 2020 Web Development Bootcamp (in progress)</li>
+          <li>Python and Django Full Stack Web Developer Bootcamp (completed)</li>
+          <li>Modern HTML &amp; CSS From The Beginning + Sass (completed)</li>
+          <li>User Experience Design Fundamentals (in progress)</li>
+          <li>Learn Windows Autopilot in a Hurry (completed)</li>
+          <li>Learning Path: Powershell: Getting Started with Powershell 6 (in progress)</li>
+        </ul>
+      </div>
+    </div>
+  <hr>
+
+  <div id="employment">
+    <div class="container-md">
+      <div class="SDE">
+        <h3><strong>Employment History</strong></h3>
+        <p>05.2018 - 11.2020: <strong>Service Desk Engineer</strong> <em>Netstar UK Ltd, London</em></p>
+        <ul>
+          <li>I was assisting the Projects’ team with builds and setup of end-users’ workstations.</li>
+          <li>I also worked with the helpdesk engineers on phone calls and resolution of request queries submitted by our clients.</li>
+          <li>I was helping the dispatcher with managing and maintaining our ConnectWise Manage database, whenever necessary.</li>
+          <li>Successfully ran a project on my own, including communication with 3rd party developers, deployment and clean-up of applications through Datto RMM, as well as preparing how-tos, guides and handover documentation.</li>
+          <li>Participated in the company’s annual StratOp even where I gave my input on 3 major internal projects (2019).</li>
+          <li>Participated in one of our largest cybersecurity auditing projects to date, which involved a thorough review of all our management platforms, generating both security scores and the testing of alternatives, as well as the implementation
+            of
+            robust solutions on a short deadline.</li>
+          <li>Promoted a wider adoption of automation and scripting to improve on company’s current SLAs.</li>
+          <li>Helped restore clients’ relationship with the company, using a blend of technical input and scripting.</li>
+          <li>I won employee of the month in March of 2019.</li>
+          <li>I then also won best customer service representative (internal) in July of 2020.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <div class="ITC">
+      <p>06.2012 - 02.2018: <strong>IT Consultant (SOHO)</strong> <em>Freelance, London</em></p>
+      <ul>
+        <li>I was providing advice with regards to the purchasing and maintenance of computer
+          equipment.</li>
+        <li>Sourcing hardware (mainly for desktop computers) and software, SOHO.</li>
+        <li>Designing computer systems, based on the client’s needs/budget.</li>
+        <li>Building the actual systems, either at the client’s location or at my own, as well as
+          installing and optimizing of OS, Antivirus and desired software.</li>
+        <li>I was providing remote assistance (using TeamViewer, Viber, Skype, Google
+          Hangouts) on software and hardware queries, including antivirus, video and audio
+          encoding, drivers’ issues, malfunctioning printers and other peripherals.</li>
+        <li>Installing and troubleshooting SOHO networks, including wireless signal availability,
+          strength and security, as well as router security optimizations (where applicable).</li>
+        <li>I was also providing limited advice with regards to the purchasing and maintenance
+          of portable devices, including laptops, tablets and smartphones.</li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="container-md">
+    <div class="WOT">
+      <p>11.2013 - 03.2015: <strong>Warehouse Operative (TFL contractor)</strong> <em>VGC Group, London</em></p>
+      <ul>
+        <li>Working at Ruislip Train Depot on behalf of TFL meant that handling things in a
+          timely and organized matter was mandatory.</li>
+        <li>Good customer service skills were absolutely necessary, as one of my duties was to
+          liaison between the people working in two different departments. Additionally, I
+          would have to handle a number of different work-related inquiries on a daily basis,
+          often coming from people working for other companies.</li>
+        <li>The nature of the work also necessitated good teamwork with people from different
+          backgrounds.</li>
+        <li>The role exacted from operatives to be flexible, as tasks could and did change
+          frequently.</li>
+      </ul>
+    </div>
   </div>
   <hr>
-  <h3>Education & IT training</h3>
-  <h4>09.2015 - Present day</h4>
-  <div class="education">
-    <table>
-      <tr>
-        <td><strong>HND Level 5 BTEC Computers and System Development (Distinction)</strong></td>
-        <td><em>West London College of Business &amp; Management Sciences, London</em></td>
-      </tr>
-      <tr>
-        <td><strong>Cisco CCENT</strong></td>
-        <td><em>West London College of Business &amp; Management Sciences, London</em></td>
-      </tr>
-      <tr>
-        <td><strong>Network Professional Programme</strong></td>
-        <td><em>Just IT Training Ltd, London</em></td>
-      </tr>
-      <tr>
-        <td><strong>Udemy</strong></td>
-        <td><em>Self-motivated, London</em></td>
-      </tr>
-    </table>
-    <ul style="text-align:justify">
-      <li>CompTIA A+ Essentials (Passed)</li>
-      <li>CompTIA A+ IT Technician (Passed)</li>
-      <li>MCTS Windows 10</li>
-      <li>The Complete 2020 Web Development Bootcamp (in progress)</li>
-      <li>Python and Django Full Stack Web Developer Bootcamp (completed)</li>
-      <li>Modern HTML &amp; CSS From The Beginning + Sass (completed)</li>
-      <li>User Experience Design Fundamentals (in progress)</li>
-      <li>Learn Windows Autopilot in a Hurry (completed)</li>
-      <li>Learning Path: Powershell: Getting Started with Powershell 6 (in progress)</li>
-    </ul>
+  <div id="interests">
+    <div class="container-md">
+      <h3><strong>Interests</strong></h3>
+      <div class="freestyle">
+        <p>I have varied interests and in many different fields, including all things computer hardware,
+          software and general IT, literature, music, science, gaming and design. I have recently begun
+          dabbling in video translations for TED and learning about games’ narrative design. I also run
+          my own blog using WordPress and like to livestream gameplay, as well as learning about all aspects of web design and development.</p>
+        <br>
+        <strong>Reference(s) available upon request.</strong>
+      </div>
+    </div>
   </div>
-  <hr>
-  <h3>Employment History</h3>
-  <div class="sde">
-    <p>05.2018 - 11.2020: <strong>Service Desk Engineer</strong> <em>Netstar UK Ltd, London</em></p>
-    <ul style="text-align:justify">
-      <li>I was assisting the Projects’ team with builds and setup of end-users’ workstations.</li>
-      <li>I also worked with the helpdesk engineers on phone calls and resolution of request queries submitted by our clients.</li>
-      <li>I was helping the dispatcher with managing and maintaining our ConnectWise Manage database, whenever necessary.</li>
-      <li>Successfully ran a project on my own, including communication with 3rd party developers, deployment and clean-up of applications through Datto RMM, as well as preparing how-tos, guides and handover documentation.</li>
-      <li>Participated in the company’s annual StratOp even where I gave my input on 3 major internal projects (2019).</li>
-      <li>Participated in one of our largest cybersecurity auditing projects to date, which involved a thorough review of all our management platforms, generating both security scores and the testing of alternatives, as well as the implementation of
-        robust solutions on a short deadline.</li>
-      <li>Promoted a wider adoption of automation and scripting to improve on company’s current SLAs.</li>
-      <li>Helped restore clients’ relationship with the company, using a blend of technical input and scripting.</li>
-      <li>I won employee of the month in March of 2019.</li>
-      <li>I then also won best customer service representative (internal) in July of 2020.</li>
-    </ul>
-  </div>
-  <div class="itc">
-    <p>06.2012 - 02.2018: <strong>IT Consultant (SOHO)</strong> <em>Freelance, London</em></p>
-    <ul style="text-align:justify">
-      <li>I was providing advice with regards to the purchasing and maintenance of computer
-        equipment.</li>
-      <li>Sourcing hardware (mainly for desktop computers) and software, SOHO.</li>
-      <li>Designing computer systems, based on the client’s needs/budget.</li>
-      <li>Building the actual systems, either at the client’s location or at my own, as well as
-        installing and optimizing of OS, Antivirus and desired software.</li>
-      <li>I was providing remote assistance (using TeamViewer, Viber, Skype, Google
-        Hangouts) on software and hardware queries, including antivirus, video and audio
-        encoding, drivers’ issues, malfunctioning printers and other peripherals.</li>
-      <li>Installing and troubleshooting SOHO networks, including wireless signal availability,
-        strength and security, as well as router security optimizations (where applicable).</li>
-      <li>I was also providing limited advice with regards to the purchasing and maintenance
-        of portable devices, including laptops, tablets and smartphones.</li>
-    </ul>
-  </div>
-  <div class="woc">
-    <p>11.2013 - 03.2015: <strong>Warehouse Operative (TFL contractor)</strong> <em>VGC Group, London</em></p>
-    <ul style="text-align:justify">
-      <li>Working at Ruislip Train Depot on behalf of TFL meant that handling things in a
-        timely and organized matter was mandatory.</li>
-      <li>Good customer service skills were absolutely necessary, as one of my duties was to
-        liaison between the people working in two different departments. Additionally, I
-        would have to handle a number of different work-related inquiries on a daily basis,
-        often coming from people working for other companies.</li>
-      <li>The nature of the work also necessitated good teamwork with people from different
-        backgrounds.</li>
-      <li>The role exacted from operatives to be flexible, as tasks could and did change
-        frequently.</li>
-    </ul>
-  </div>
-  <hr>
-  <h3>Interests</h3>
-  <div class="ia">
-    <p style="text-align:justify">I have varied interests and in many different fields, including all things computer hardware,
-      software and general IT, literature, music, science, gaming and design. I have recently begun
-      dabbling in video translations for TED and learning about games’ narrative design. I also run
-      my own blog using WordPress and like to livestream gameplay, as well as learning about all aspects of web design and development.</p>
-    <br>
-    <strong>Reference(s) available upon request.</strong>
-  </div>
-  <br>
-  <div class="bottom">
-    <!-- The target="_blank" rel="noopener norbeferrer" helps prevent tabnabbing. -->
-    <a class="social" href="https://www.linkedin.com/in/tsvetoslavshalev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a class="social" href="https://tsvetoslavshalev.com/" target="_blank" rel="noopener noreferrer">Blog</a>
-    <a class="social" href="https://www.twitch.tv/mrbr1ghtsid3" target="_blank" rel="noopener noreferrer">TwitchTV</a>
-    <p class="footer">Copyright © 2020 Tsvetoslav Shalev. All rights reserved.</p>
-  </div>
+
+
+  <!-- Footer -->
+  <hr class="footer-style" />
+  <footer>
+    <div class="container-md">
+      <!-- The target="_blank" rel="noopener norbeferrer" helps prevent tabnabbing. -->
+      <a class="social-icon" href="https://tsvetoslavshalev.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-wordpress"></i></a>
+      <a class="social-icon" href="https://www.linkedin.com/in/tsvetoslavshalev/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+      <a class="social-icon" href="https://www.twitch.tv/mrbr1ghtsid3" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitch"></i></a>
+      <p id="copyright">Copyright © 2020 Tsvetoslav Shalev. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 
