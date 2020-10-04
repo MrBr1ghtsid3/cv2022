@@ -1,19 +1,20 @@
-body {
-  background-color: #f6f5f5;
-  font-size: 1.3rem;
+/* May not work on Safari */
+
+html {
+  scroll-behavior: smooth;
 }
 
-.my-photo {
-  float:left;
-  margin-right: 2%;
-  border-radius: 3%;
+body {
+  background-color: #f6f5f5;
+  font-size: 1.4rem;
+  text-align: justify;
 }
 
 hr {
   width: 25%;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  /* Styling borrower from codepen.io */
+  /* Styling borrowed from codepen.io */
   border: 0;
   height: 1px;
   background-image: -webkit-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
@@ -44,11 +45,18 @@ div {
   padding: 0 0 10%;
 }
 
+.my-photo {
+  float:left;
+  margin-right: 2%;
+  border-radius: 3%;
+}
+
 /* Navigation Bar */
 
 .navbar {
-  background-color: #00334E;
   margin-bottom: 3%;
+  background-color: #f6f5f5;
+  border-bottom: 1px solid #00334E;
 }
 
 .navbar-brand {
@@ -57,12 +65,12 @@ div {
   font-size: 2.5rem;
 }
 
-.nav-item {
-  padding: 0 10px;
+.navbar-light .navbar-brand {
+  color: #00334E;
 }
 
-.nav-item:hover {
-  color: #ee6f57;
+.nav-item {
+  padding: 0 10px;
 }
 
 .nav-link {
@@ -76,21 +84,10 @@ div {
   padding: 1% 15%;
 }
 
-#bio {
+/* #bio {
   text-align: justify;
-}
+} */
 
-#employment {
-  text-align: justify;
-}
-
-#education {
-  text-align: justify;
-}
-
-#interests {
-  text-align: justify;
-}
 
 /* Footer */
 footer {
@@ -132,6 +129,9 @@ footer {
     font-size: 2.5rem
   }
 
+  .nav-link {
+    font-size: 2.5rem;
+}
   #title {
     text-align: center;
   }
