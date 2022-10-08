@@ -12,8 +12,7 @@ body {
 
 hr {
   width: 25%;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 4rem auto;
   /* Styling borrowed from codepen.io */
   border: 0;
   height: 1px;
@@ -25,8 +24,18 @@ hr {
 }
 
 h3 {
+  text-align: center;
+  padding-bottom: 1.5rem;
   color: #00334E;
   font-weight: bolder;
+}
+
+.to-right {
+  margin-left: 7rem;
+}
+
+.one-to-right {
+  margin-left: 15rem;
 }
 
 div {
