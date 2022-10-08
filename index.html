@@ -15,13 +15,13 @@
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/NewandImproved.ico" type="image/x-icon">
 </head>
 
 <body>
   <section id="title">
 
-    <div class="container-fluid">
+    <div class="container-lg">
 
       <!-- Nav Bar -->
 
@@ -49,7 +49,7 @@
               <a class="nav-link" href="#interests">Interests</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="mailto:tsvetoslav.shalev@gmai.com">Contact</a>
+              <a class="nav-link" href="mailto:tsvetoslav.shalev@gmai.com">Email Me</a>
             </li>
           </ul>
         </div>
@@ -57,21 +57,28 @@
       </nav>
 
   </section>
+
+  <!-- BIO -->
+
   <div id="bio">
     <div class="container-md">
       <h3><strong>About</strong></h3>
-      <br>
-      <img class="my-photo" src="Images/bio.jpg" alt="selfie of the creator of the page" width="420px" height="540px">
-      <p>My name is Tsvetoslav "Sean" Shalev, and I am an IT enthusiast looking to build a career out of his passion for technology. I am comfortable with HTML5, CSS3 and Bootstrap, using Atom or VS Code IDEs (Win10). Currently, I am also learning JavaScript, jQuery and React, as well as Backend Web Development fundamentals.</p>
-      <p>Between 2013 and 2018 I worked as a Transport For London Contractor (platelayer) and a freelance IT Consultant before I joined one of UK's top 50 MSPs as a Service Desk Engineer in May of 2018. Some of the key technical skills that I've developed further include the building, upgrading and maintenance of computers and systems, scripting through Command-Line and PowerShell, working with RMM software (Win10 & macOS) and Azure Intune, knowledge on networking fundamentals, as well as a Hamilton Mercer-certified level of customer service. I also possess soft skills such as excellent teamwork, process-adherence and time-management using workloads' prioritisation to meet and improve on SLAs.</p>
-      <p>As a firm believer in civilised discourse and collaborative effort, my goal is to secure a front-end web developer role with a team of good people, so I can continue to expand on my technical capabilities and support a career as an IT professional.</p>
+      <div class="the-me">
+        <img class="my-photo" src="assets/bio.jpg" alt="selfie of the creator of the page" width="420px" height="540px">
+      </div>
+      <div class="the-story">
+        <p class="long-one"> My name is Tsvetoslav Shalev. Friends and colleagues call me Sean. I am an IT enthusiast looking to build a career out of his passion for technology. I am comfortable with HTML5, CSS3, SASS and Bootstrap, using VSCode (Win11). I'm currently learning JavaScript, Python, React, and Backend Web Development fundamentals.
+          <br> Between 2013 and 2018, I worked as a Transport For London Contractor (platelayer) and a freelance IT Consultant before I joined one UK's top 50 MSPs as a Service Desk Engineer in May of 2018. In May of 2021, I moved to Besso (now Ardonagh) as a Senior Technical Analyst/Infrastructure Engineer. My day-to-day tasks necessitate scripting skills using PowerShell, TypeScript and Bash.
+          <br> As a firm believer in civilised discourse and collaborative effort, I aim to secure a role with a team of good people, so I can continue expanding on my technical capabilities.</p>
+      </div>
     </div>
   </div>
-  <br>
+
+<!-- WHAT I KNOW (I think) -->
+
   <hr id="education">
   <br>
-  <br>
-  <div>
+
     <div class="container-md">
       <h3><strong>Education & IT training</strong></h3>
       <h4>09.2015 - Present day</h4>
@@ -105,18 +112,40 @@
         <li>User Experience Design Fundamentals (in progress)</li>
         <li>Learn Windows Autopilot in a Hurry (completed)</li>
         <li>Learning Path: Powershell: Getting Started with Powershell 6 (in progress)</li>
+        <li>Pass Exam AZ-900: Microsoft Azure Fundamentals</li>
+        <li>Pass Exam MS-900: Microsoft 365 Fundamentals</li>
+        <li>Pass Exam PL-900: Microsoft Power Platform Fundamentals</li>
       </ul>
     </div>
-  </div>
-  <br>
+
+    <!-- WORK -->
+
   <hr id="employment">
   <br>
-  <br>
-  <div>
+
     <div class="container-md">
-      <div class="SDE">
+      <div class="container-md">
         <h3><strong>Employment History</strong></h3>
         <br>
+        <div class="ITC">
+          <p>06.2013 - 05.2018: <strong>IT Consultant (SOHO)</strong>  <em>Freelance, London</em></p>
+          <ul>
+            <li>Provided advice with regards to the purchasing and maintenance of computer
+              equipment.</li>
+            <li>Designed computer systems (desktop, laptop), based on the client’s needs/budget.</li>
+            <li>Sourced hardware (mainly for desktop computers), OS and software.</li>
+            <li>Built the systems, either at the client’s location or at my own.</li>
+            <li>Provided remote assistance (TeamViewer, Viber, Skype, Google
+              Hangouts) on OS, software and hardware queries, including antivirus, video and audio
+              encoding, drivers’ issues, malfunctioning printers and other peripherals.</li>
+            <li>Installed and troubleshot networks and networking equipment (wireless signal availability,
+              stability and security).</li>
+            <li>Provided limited advice with regards to the purchasing, maintenance and security
+              of portable devices (Android tablets, smartphones).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="SDE">
         <p>05.2018 - 12.2020: <strong>Service Desk Engineer</strong>  <em>Netstar UK Ltd, London</em></p>
         <ul>
           <li>Assisted the Projects’ team with computer builds and setups.</li>
@@ -134,32 +163,13 @@
         </ul>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="container-md">
-    <div class="ITC">
-      <p>06.2013 - 05.2018: <strong>IT Consultant (SOHO)</strong>  <em>Freelance, London</em></p>
-      <ul>
-        <li>Provided advice with regards to the purchasing and maintenance of computer
-          equipment.</li>
-        <li>Designed computer systems (desktop, laptop), based on the client’s needs/budget.</li>
-        <li>Sourced hardware (mainly for desktop computers), OS and software.</li>
-        <li>Built the systems, either at the client’s location or at my own.</li>
-        <li>Provided remote assistance (TeamViewer, Viber, Skype, Google
-          Hangouts) on OS, software and hardware queries, including antivirus, video and audio
-          encoding, drivers’ issues, malfunctioning printers and other peripherals.</li>
-        <li>Installed and troubleshot networks and networking equipment (wireless signal availability,
-          stability and security).</li>
-        <li>Provided limited advice with regards to the purchasing, maintenance and security
-          of portable devices (Android tablets, smartphones).</li>
-      </ul>
-    </div>
-  </div>
-  <br>
+
+
+  <!-- I&H -->
+
   <hr id="interests">
   <br>
-  <br>
-  <div>
+
     <div class="container-md">
       <h3><strong>Interests & Hobbies</strong></h3>
       <br>
@@ -169,12 +179,13 @@
         <strong>Reference(s) available upon request.</strong>
       </div>
     </div>
-  </div>
+
 
 
   <!-- Footer -->
-  <hr class="footer-style" />
+  <hr class="footer-style">
   <footer>
+
     <div class="container-md">
       <!-- The target="_blank" rel="noopener norbeferrer" helps prevent tabnabbing. -->
       <a class="social-icon" href="https://tsvetoslavshalev.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-wordpress"></i></a>

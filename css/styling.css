@@ -7,7 +7,7 @@ html {
 body {
   background-color: #f6f5f5;
   font-size: 1.4rem;
-  text-align: justify;
+  text-align: start;
 }
 
 hr {
@@ -49,6 +49,13 @@ div {
   float:left;
   margin-right: 2%;
   border-radius: 3%;
+  /* by Temani Afif - FANCY FRAME II */
+  --s: 10px; /* control the size */
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 1px solid #00334E;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
 }
 
 /* Navigation Bar */
@@ -79,6 +86,11 @@ div {
 }
 
 /* Containers */
+
+#bio {
+  margin-top: 9rem;
+  text-align: justify !important;
+}
 
 .container-fluid{
   padding: 1% 15%;
@@ -114,10 +126,21 @@ footer {
 
 /* Responsiveness */
 
+@media (min-width: 280px) {
+
+  .container, .container-md, .container-sm {
+    max-width: 850px;
+  }
+
+}
+
+
+
 @media (max-width: 1028px) {
 
   body {
     font-size: 2.5rem;
+    text-align: start;
   }
 
   h3 {
@@ -132,7 +155,10 @@ footer {
   }
 
   .my-photo {
+   border-radius: 0px;
    position: static;
-   width: 100%
+   width: 100%;
+   height: auto;
  }
 }
+
